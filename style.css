@@ -1,0 +1,112 @@
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.logo p{
+    color: #acacac;
+}
+
+.path{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.path-box{
+    border: 2px solid #c9c9c9;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.path-box:hover{
+    border-color: #2BC053;
+    border-width: 2px;
+}
+
+.path-box .text1{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Placements*/
+
+.back-btn{
+    margin-top: 7%;
+}
+
+.back-btn a{
+    color: #000;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.back-btn a:hover{
+    color: #555555;
+}
+
+.top{
+    text-align: center;
+}
+
+.text3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+ 
+    .path{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .path-box{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .back-btn{
+        margin-top: 10%;
+    }
+}
